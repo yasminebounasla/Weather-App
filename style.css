@@ -1,0 +1,173 @@
+*{
+    font-family: "Roboto", sans-serif;
+    background-color: #0D1B2A;
+    /* color: #778DA9; */
+    color : #E0E1DD;
+}
+
+/* nav bar */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding :0 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo p, .cf{
+    margin-left: 10px;
+    font-size: 1.7rem;
+}
+
+.logo i{
+    font-size: 1.6rem;
+}
+
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: #386390 solid 2px;
+    background-color: #13253A;
+    padding : 5px 10px;
+    width : 350px;
+    justify-content: space-between;
+    transition: all 0.5s;
+    margin-right: 15px;
+}
+
+.search-bar:hover{
+    box-shadow: 0px 0px 5px #386390;
+}
+
+.search-bar input{
+    all : unset;
+}
+
+.search-bar .search-button i{
+    color : white;
+    background-color:#13253A;
+}
+
+.search-bar .search-button{
+    background-color: #13253A;
+}
+
+.search-bar .search-button:hover{
+    cursor: pointer;
+}
+
+.section-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px 0;
+}
+
+.date-place{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.place{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.today-date{
+    font-size: 1.5rem;
+}
+
+.current-weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon svg circle,
+.icon svg g{
+  fill: none;
+  stroke: #f4ff5d !important;
+}
+
+.weather-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.weather-details p{
+    margin: 20px 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin : 20px 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    border: #386390 solid 1px;
+    background-color: #13253A;
+    border-radius: 10px;
+    padding :5px 35px;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #386390;
+    cursor: pointer;
+}
+
+.card .day, .card .degree, .card svg{
+    background-color: #13253A;
+}
+
+.card .day{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card .degree{
+    font-size: 1.1rem;
+}
+
+
+.card svg circle,
+.card svg g{
+    stroke: #f4ff5d !important;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0 70px 0;
+    font-size: 1.2rem;
+}
